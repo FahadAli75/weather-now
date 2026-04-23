@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import "../css/style.css";
 
-const weathercard = () => {
+const WeatherCard = () => {
   const [city, setCity] = useState(null);
   const [search, setSearch] = useState("London");
   const [query, setQuery] = useState("London");
@@ -108,4 +108,4 @@ const weathercard = () => {
   );
 };
 
-export default weathercard;
+export default WeatherCard;
