@@ -1,13 +1,13 @@
 
  import './App.css'
-import WeatherCard from './components/WeatherCard'
+import weathercard from './components/weathercard'
 
 
 function App() {
 
   return (
     <div className='Box'>
-      <WeatherCard/>
+      <weathercard/>
     </div>
     
   )
